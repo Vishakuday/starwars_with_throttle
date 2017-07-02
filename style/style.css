@@ -1,0 +1,113 @@
+ul{
+list-style:none;
+margin-top:50px;
+}
+ul:after{
+display:block;
+content:"";
+clear:both;
+}
+ul li{
+float:left;
+margin-left:50px;
+margin-top:10px;
+min-width:5%;
+color:#a1a2a2;
+}
+body{
+margin:0;
+background-color:black !important;
+color:white;
+}
+
+.container{
+margin:0 !important;
+max-width:100% !important;
+}
+
+.form-group{
+width:60%;
+margin:30px auto 80px auto !important;
+}
+.planet-search{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:25px;
+	border-radius:1%;
+	background-color:#f3eedf;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:25px;
+	border-radius:1%;
+	background-color:#f3eedf;
+}
+
+button[type=submit]{
+background-color:black;
+color:white;
+width:50%;
+padding:20px 0;
+transition:2s ease-out;
+}
+button[type=submit]:hover{
+background-color:#f3eedf;
+color:black;
+width:50%;
+padding:20px 0;
+}
+label{
+color:white;
+}
+.loader img{
+height:100%;
+width:100%;
+}
+.header{
+width:50%;
+margin:10px auto 0px auto;
+color:#f3eedf;
+}
+.login-page img{
+width:12%;
+margin:0 0 0 40%;
+
+}
+.example-enter {
+  opacity: 0.00;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+label{
+font-size:26px;
+color:#a1a2a2;
+}
+body{
+background:url(../assets/imgs/stars-bg-4.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-size:cover;
+}
